@@ -1,20 +1,24 @@
 package HotelManagementSystem.Database;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
 
 public class DatabaseConnection {
 
     private static final String URL =
-            "jdbc:mysql://localhost:3306/HotelManagementSystem?useSSL=false&serverTimezone=UTC";
-    private static final String USER = " ";
-    private static final String PASS = " ";
+            "jdbc:mysql://localhost:3306/HotelManagementSystem" +
+                    "?useSSL=false" +
+                    "&allowPublicKeyRetrieval=true" +
+                    "&serverTimezone=UTC";
 
-    public static Connection getConnection() throws SQLException {
+    private static final String USER = "root";
+    private static final String PASS = "RafiIkra69";
+
+    public static Connection getConnection() {
         try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            return DriverManager.getConnection(URL, USER, PASS);
         } catch (Exception e) {
-            throw new SQLException("MySQL Driver missing");
+            throw new RuntimeException("Database connection failed: " + e.getMessage());
         }
-        return DriverManager.getConnection(URL, USER, PASS);
     }
 }
