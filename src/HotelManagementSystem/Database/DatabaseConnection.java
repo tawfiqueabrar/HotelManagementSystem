@@ -12,7 +12,7 @@ public class DatabaseConnection {
                     "&serverTimezone=UTC";
 
     private static final String USER = "root";
-    private static final String PASS = "RafiIkra69";
+    private static final String PASS = " ";
 
     public static Connection getConnection() {
         try {
