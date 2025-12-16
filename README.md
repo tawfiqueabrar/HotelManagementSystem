@@ -59,7 +59,7 @@ which ensures separation of concerns.
 
 ---
 
-## 🗄️ Database Design
+## Database Design
 
 The system uses **MySQL** as the database.
 
