@@ -1,0 +1,17 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Build folders
+out/
+build/
+target/
+
+# Mac
+.DS_Store
+
+# Backup files
+backup/
+
+# Logs
+*.log
