@@ -59,44 +59,6 @@ which ensures separation of concerns.
 
 ---
 
-## Project Architecture
-
-The project follows a **layered architecture** to maintain clean separation
-between different responsibilities.
-
-src/
-└── HotelManagementSystem/
-├── Database/
-│   └── DatabaseConnection.java
-│
-├── Javacore/
-│   ├── model/
-│   │   ├── Person.java
-│   │   ├── Guest.java
-│   │   └── Room.java
-│   │
-│   └── service/
-│       ├── HotelService.java
-│       └── HotelServiceImpl.java
-│
-├── Repository/
-│   └── HotelRepository.java
-│
-├── Ui/
-│   ├── LoginView.java
-│   ├── DashboardView.java
-│   └── FX.java
-│
-├── Utility/
-│   └── Backup.java
-│
-├── Images/
-│   └── dashboardpicture.png
-│
-└── Main.java
-
----
-
 ## 🗄️ Database Design
 
 The system uses **MySQL** as the database.
@@ -106,12 +68,12 @@ The system uses **MySQL** as the database.
 - `room` – stores room number, type, availability, and price
 - `guest` – stores guest information such as name, NID, mobile, address, room, and payment
 
-⚠️ **For security reasons, database credentials (passwords) are not included in this repository.**
+**For security reasons, database credentials (passwords) are not included in this repository.**
 Each user must configure their own local database credentials.
 
 ---
 
-## 🖥️ Technologies Used
+## Technologies Used
 
 - **Java (JDK 25)**
 - **JavaFX** (GUI)
@@ -121,7 +83,7 @@ Each user must configure their own local database credentials.
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
 1. Clone or download the repository
 2. Open the project in **IntelliJ IDEA**
