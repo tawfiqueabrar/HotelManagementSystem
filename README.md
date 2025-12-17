@@ -59,7 +59,11 @@ which ensures separation of concerns.
 
 ---
 
+<<<<<<< HEAD
 ## 🗄️ Database Design
+=======
+## Database Design
+>>>>>>> 123fc71b4cdaee704828f59d1d56887f31c37885
 
 The system uses **MySQL** as the database.
 
@@ -83,7 +87,11 @@ Each user must configure their own local database credentials.
 
 ---
 
+<<<<<<< HEAD
 ##  How to Run the Project
+=======
+## How to Run the Project
+>>>>>>> 123fc71b4cdaee704828f59d1d56887f31c37885
 
 ## Database Setup
 
