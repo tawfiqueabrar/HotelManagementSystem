@@ -16,7 +16,7 @@ public class LoginView {
     private static final int W = 380;
     private static final int H = 180;
 
-    //Transparent overlay
+    //TransparentOverlay
     private static final String OVERLAY = "rgba(255,228,235,0.25)";
 
     public static void show(Stage stage, HotelService service) {

@@ -16,18 +16,22 @@ public class Guest extends Person {
     }
 
     public String getNid() {
+
         return nid;
     }
 
     public String getMobile() {
+
         return mobile;
     }
 
     public String getRoom() {
+
         return room;
     }
 
     public int getPaid() {
+
         return paid;
     }
 }

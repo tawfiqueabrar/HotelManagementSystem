@@ -318,7 +318,7 @@ public class DashboardView {
         return new Tab("Backup", wrap(box));
     }
 
-    // -------------------- Professional UI helpers --------------------
+    //UIHelpers
 
     private static Label title(String text) {
         Label l = new Label(text);

@@ -10,7 +10,7 @@ public class DatabaseConnection {
                     "?useSSL=false" +
                     "&allowPublicKeyRetrieval=true" +
                     "&serverTimezone=UTC";
-
+    // Change database username and password according to local MySQL setup
     private static final String USER = "root";
     private static final String PASS = " ";
 

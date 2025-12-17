@@ -16,10 +16,12 @@ public class Room {
     }
 
     public String getRoomType() {
+
         return roomType;
     }
 
     public String getAvailability() {
+
         return availability;
     }
 
